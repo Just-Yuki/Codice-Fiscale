@@ -1,0 +1,43 @@
+h3 {
+    display: inline;
+}
+#LCognome {
+    margin-right: 100px;
+}
+#LNome {
+    margin-right: 129px;
+}
+#LDataN {
+    margin-right: 49px;
+}
+#LGenere {
+    margin-right: 118px;
+}
+#LLuogoN {
+    margin-right: 40px;
+}
+input[type="text"] {
+    width: 150px;
+}
+select {
+    width: 157px;
+    margin-right: 15px;
+}
+#GNasc, #ANasc {
+    width: 60px;
+}
+#MNasc {
+    width: 90px;
+}
+option {
+    text-align: center;
+}
+div, span {
+    font-size: 20px;
+}
+#Avv{
+    font-size: 12px;
+}
+#Ris{
+    margin-left: 50px;
+}

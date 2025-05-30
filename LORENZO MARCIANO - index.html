@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Codice Fiscale</title>
+        <link rel="stylesheet" href="LORENZO MARCIANO - stile.css">
+    </head>
+    <body onload="popolaGiorni()">
+        <br><h3 id="LCognome">Inserisci il Cognome</h3>
+        <input type="text" id="Cognome"><br>
+        <br><h3 id="LNome">Inserisci il Nome</h3>
+        <input type="text" id="Nome"><br>
+        <br><h3 id="LDataN">Inserisci la Data di Nascita</h3>
+        <select id="MNasc" onchange="popolaGiorni()">
+        </select>
+        <select id="GNasc">
+        </select>
+        <select id="ANasc" onchange="popolaGiorni()">
+        </select>
+        <div id="Avv">(Inserire il mese prima del giorno,</div><div id="Avv">se si vuole inserire il 29 Febbraio inserire prima anche l'anno)</div>
+        <br><h3 id="LGenere">Inserisci il Genere</h3>
+        <select id="Genere">
+            <option value="Mas">Maschio</option>
+            <option value="Fem">Femmina</option>
+        </select><br>
+        <br><h3 id="LLuogoN">Inserisci il Luogo di Nascita</h3>
+        <input type="text" id="LuogoN"><br>
+        <br><br><br><div id="LabP">Premi il pulsante per calcolare il codice fiscale</div>
+        <br><input type="button" id="OutCF" value="Calcolo Codice Fiscale" onclick="CalcolaCodFisc()">
+        <br><br><br><h3>Codice fiscale: </h3><span id="Ris">Qui apparirà il codice fiscale.</span>
+        <script src="LORENZO MARCIANO - codice.js"></script>
+    </body>
+</html>
